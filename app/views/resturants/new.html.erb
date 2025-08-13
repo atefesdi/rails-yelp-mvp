@@ -1,0 +1,7 @@
+
+<%= simple_form_for @resturant do |f| %>
+  <%= f.input :username,  label: 'Your username please', error: 'Username is mandatory, please specify one' %>
+  <%= f.input :address,  label: 'Your address please', error: 'address is mandatory, please specify one'%>
+  <%= f.input :category, label: 'Your category please', error: 'category is mandatory, please specify one'%>
+  <%= f.button :submit %>
+<% end %>
